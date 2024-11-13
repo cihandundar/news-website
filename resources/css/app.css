@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-link {
+    @apply text-sm transition-all duration-500 ease-out;
+}
+
+.nav-link:hover {
+    @apply text-yellow-500;
+}
+
+[data-menu="closed"] {
+    @apply left-[-100%];
+}
+
+[data-menu="open"] {
+    @apply left-0;
+}
