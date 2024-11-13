@@ -1,4 +1,4 @@
-<header id="navbar" class="py-5">
+<header id="navbar" class="py-5 border-b border-solid border-gray-400">
     <div class="container max-w-screen-xl mx-auto flex justify-between items-center relative px-5 lg:px-0">
         <a href="/">@include('front.partials.svg.logo-svg')</a>
         <nav id="nav-menu" data-menu="closed"
