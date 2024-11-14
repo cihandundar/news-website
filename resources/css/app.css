@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* HEADER SECTION START */
 .nav-link {
     @apply text-sm transition-all duration-500 ease-out;
 }
@@ -18,6 +19,9 @@
     @apply left-0;
 }
 
+/* HEADER SECTION END */
+
+/* NEWS CATEGORY SECTION START */
 .category-box {
     @apply flex items-center gap-5 lg:basis-1/4 p-5 mb-4 transition-all duration-500 ease-out;
 
@@ -41,6 +45,9 @@
     }
 }
 
+/* NEWS CATEGORY SECTION END */
+
+/* HERO SECTION START */
 .hero-box {
     @apply md:w-[23%] w-full  p-3 transition-all duration-500 ease-out;
 
@@ -48,3 +55,5 @@
         @apply md:shadow-lg;
     }
 }
+
+/* HERO SECTION END */
