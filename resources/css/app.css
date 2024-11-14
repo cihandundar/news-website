@@ -7,7 +7,7 @@
 }
 
 .nav-link:hover {
-    @apply text-yellow-500;
+    @apply text-red-600;
 }
 
 [data-menu="closed"] {
