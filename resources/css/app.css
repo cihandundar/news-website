@@ -40,3 +40,11 @@
         }
     }
 }
+
+.hero-box {
+    @apply md:w-[23%] w-full  p-3 transition-all duration-500 ease-out;
+
+    &:hover {
+        @apply md:shadow-lg;
+    }
+}
