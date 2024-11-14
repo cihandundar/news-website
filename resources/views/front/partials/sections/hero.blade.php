@@ -1,4 +1,4 @@
-<section>
+<section class="px-3">
     <div class="container max-w-screen-xl mx-auto">
         <div class="relative">
             <img src="{{ asset('front/assets/images/hero.jpg') }}" alt="hero">
@@ -20,8 +20,8 @@
                 <span class="text-sm"> 06 Minute</span>
             </div>
         </div>
-        <div class="flex justify-between items-start pt-5">
-            <div class="text-4xl w-[75%] font-bold">
+        <div class="flex sm:justify-between flex-wrap items-start pt-5">
+            <div class="text-4xl sm:w-[75%] w-full mb-4 font-bold">
                 A deep dive into the influence of cultural movements on contemporary society
             </div>
             <div class="flex gap-2 items-center cursor-pointer">
