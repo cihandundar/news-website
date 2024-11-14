@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="flex sm:justify-between flex-wrap items-start pt-5">
-                <div class="text-4xl sm:w-[75%] w-full mb-4 font-bold">
+                <div class="text-4xl sm:w-[75%] w-full mb-4 font-medium">
                     A deep dive into the influence of cultural movements on contemporary society
                 </div>
                 <div class="flex gap-2 items-center cursor-pointer">
