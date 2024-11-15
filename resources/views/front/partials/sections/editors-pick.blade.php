@@ -4,24 +4,28 @@
         <div class="flex md:justify-between md:flex-row flex-col gap-2 pt-5">
             <a href="#" class="p-3">
                 <img class="h-full object-cover" src="{{ asset('front/assets/images/editor1.jpg') }}" alt="news-image">
-                <div class="pt-2">
-                    Cultural icons & their lasting impact on global artistic expression
-                </div>
-                <div class="flex items-center gap-2">
-                    <span class="text-sm">Culture</span>
-                    <span class="text-xl">-</span>
-                    <span class="text-sm">Sep 9, 2024</span>
+                <div class="p-3">
+                    <div>
+                        Cultural icons & their lasting impact on global artistic expression
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-sm">Culture</span>
+                        <span class="text-xl">-</span>
+                        <span class="text-sm">Sep 9, 2024</span>
+                    </div>
                 </div>
             </a>
             <a href="#" class="md:w-[40%] w-full p-3">
                 <img class="h-full object-cover" src="{{ asset('front/assets/images/editor2.jpg') }}" alt="news-image">
-                <div class="pt-2">
-                    Medical research and their potential to cure major health conditions
-                </div>
-                <div class="flex items-center gap-2">
-                    <span class="text-sm">Culture</span>
-                    <span class="text-xl">-</span>
-                    <span class="text-sm">Sep 9, 2024</span>
+                <div class="p-3">
+                    <div>
+                        Medical research and their potential to cure major health conditions
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-sm">Culture</span>
+                        <span class="text-xl">-</span>
+                        <span class="text-sm">Sep 9, 2024</span>
+                    </div>
                 </div>
             </a>
             <a href="#" class=" md:w-[70%] w-full relative p-3">
