@@ -47,6 +47,14 @@
 
 /* NEWS CATEGORY SECTION END */
 
+/* TITLE START */
+
+.title {
+    @apply uppercase text-4xl border-b border-solid border-gray-600 pb-3;
+}
+
+/* TITLE END */
+
 /* HERO SECTION START */
 .hero-box {
     @apply transition-all duration-500 ease-out;

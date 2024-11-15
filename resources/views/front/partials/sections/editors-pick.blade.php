@@ -1,6 +1,6 @@
-<section class="py-[60px]">
-    <div class="container max-w-screen-xl mx-auto">
-        <div class="uppercase text-4xl border-b border-solid border-gray-600 pb-3"> editor's pick</div>
+<section class="py-[90px]">
+    <div class="container max-w-screen-xl mx-auto px-3">
+        <div class="title"> edıtor's pıck</div>
         <div class="flex md:justify-between md:flex-row flex-col gap-2 pt-5">
             <a href="#" class="p-3">
                 <img class="h-full object-cover" src="{{ asset('front/assets/images/editor1.jpg') }}" alt="news-image">
@@ -8,10 +8,8 @@
                     <div>
                         Cultural icons & their lasting impact on global artistic expression
                     </div>
-                    <div class="flex items-center gap-2">
-                        <span class="text-sm">Culture</span>
-                        <span class="text-xl">-</span>
-                        <span class="text-sm">Sep 9, 2024</span>
+                    <div class="pt-2">
+                        <span class="text-sm">Culture - Sep 9, 2024</span>
                     </div>
                 </div>
             </a>
@@ -21,10 +19,8 @@
                     <div>
                         Medical research and their potential to cure major health conditions
                     </div>
-                    <div class="flex items-center gap-2">
-                        <span class="text-sm">Culture</span>
-                        <span class="text-xl">-</span>
-                        <span class="text-sm">Sep 9, 2024</span>
+                    <div class="pt-2">
+                        <span class="text-sm">Culture - Sep 9, 2024</span>
                     </div>
                 </div>
             </a>
