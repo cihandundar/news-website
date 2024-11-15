@@ -6,4 +6,5 @@
     @include('front.partials.sections.hero')
     @include('front.partials.sections.editors-pick')
     @include('front.partials.sections.latest-news')
+    @include('front.partials.sections.cta')
 @endsection
