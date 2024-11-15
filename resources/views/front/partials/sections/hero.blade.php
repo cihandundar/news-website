@@ -32,49 +32,57 @@
             </div>
         </a>
 
-        <div class="flex lg:justify-between flex-wrap gap-5 pt-5 ">
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 pt-5 ">
             <a href="#" class="hero-box">
                 <img src="{{ asset('front/assets/images/top-img1.jpg') }}" alt="news">
-                <div class="flex items-center gap-2">
-                    <span class="text-sm">World News</span>
-                    <span class="text-xl">-</span>
-                    <span class="text-sm">Sep 9, 2024</span>
-                </div>
-                <div>
-                    The effects of geopolitical shifts on global security
+                <div class="p-3">
+                    <div class="flex items-center gap-2">
+                        <span class="text-sm">World News</span>
+                        <span class="text-xl">-</span>
+                        <span class="text-sm">Sep 9, 2024</span>
+                    </div>
+                    <div>
+                        The effects of geopolitical shifts on global security
+                    </div>
                 </div>
             </a>
             <a href="#" class="hero-box">
                 <img src="{{ asset('front/assets/images/top-img2.jpg') }}" alt="news">
-                <div class="flex items-center gap-2">
-                    <span class="text-sm">Culture</span>
-                    <span class="text-xl">-</span>
-                    <span class="text-sm">Sep 9, 2024</span>
-                </div>
-                <div>
-                    Affect the integrity and future of professional sports
+                <div class="p-3">
+                    <div class="flex items-center gap-2">
+                        <span class="text-sm">Culture</span>
+                        <span class="text-xl">-</span>
+                        <span class="text-sm">Sep 9, 2024</span>
+                    </div>
+                    <div>
+                        Affect the integrity and future of professional sports
+                    </div>
                 </div>
             </a>
             <a href="#" class="hero-box">
                 <img src="{{ asset('front/assets/images/top-img3.jpg') }}" alt="news">
-                <div class="flex items-center gap-2">
-                    <span class="text-sm">Technology</span>
-                    <span class="text-xl">-</span>
-                    <span class="text-sm">Sep 9, 2024</span>
-                </div>
-                <div>
-                    Strategies for success in a competitive landscape
+                <div class="p-3">
+                    <div class="flex items-center gap-2">
+                        <span class="text-sm">Technology</span>
+                        <span class="text-xl">-</span>
+                        <span class="text-sm">Sep 9, 2024</span>
+                    </div>
+                    <div>
+                        Strategies for success in a competitive landscape
+                    </div>
                 </div>
             </a>
             <a href="#" class="hero-box">
                 <img src="{{ asset('front/assets/images/top-img4.jpg') }}" alt="news">
-                <div class="flex items-center gap-2">
-                    <span class="text-sm">Bussiness</span>
-                    <span class="text-xl">-</span>
-                    <span class="text-sm">Sep 9, 2024</span>
-                </div>
-                <div>
-                    The effects of geopolitical shifts on global security
+                <div class="p-3">
+                    <div class="flex items-center gap-2">
+                        <span class="text-sm">Bussiness</span>
+                        <span class="text-xl">-</span>
+                        <span class="text-sm">Sep 9, 2024</span>
+                    </div>
+                    <div>
+                        The effects of geopolitical shifts on global security
+                    </div>
                 </div>
             </a>
         </div>

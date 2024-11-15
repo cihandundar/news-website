@@ -1,5 +1,5 @@
 <section class="py-5">
-    <div class="container max-w-screen-xl mx-auto flex items-center justify-between flex-wrap">
+    <div class="container max-w-screen-xl mx-auto grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
         <a href="#" class="category-box">
             <img src="{{ asset('front/assets/images/culture1.jpg') }}" alt="news-category">
             <div class="category-box-left">
