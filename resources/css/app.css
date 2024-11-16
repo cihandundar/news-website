@@ -2,69 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: #f9f9f9;
-}
-
-/* HEADER SECTION START */
-.nav-link {
-    @apply text-sm transition-all duration-500 ease-out;
-}
-
-.nav-link:hover {
-    @apply text-red-600;
-}
-
-[data-menu="closed"] {
-    @apply left-[-100%];
-}
-
-[data-menu="open"] {
-    @apply left-0;
-}
-
-/* HEADER SECTION END */
-
-/* NEWS CATEGORY SECTION START */
-.category-box {
-    @apply flex items-center gap-5 lg:basis-1/4 p-5 mb-4 transition-all duration-500 ease-out;
-
-    &:hover {
-        @apply shadow-lg;
+@layer base {
+    body {
+        background-color: #f9f9f9;
     }
-    & img {
-        width: 100px;
+}
+
+@layer components {
+    .nav-link {
+        @apply text-sm transition-all duration-500 ease-out;
     }
 
-    & .category-box-left {
-        @apply flex flex-col;
+    .nav-link:hover {
+        @apply text-red-600;
+    }
 
-        & span:first-child {
-            @apply font-bold;
+    [data-menu="closed"] {
+        @apply left-[-100%];
+    }
+
+    [data-menu="open"] {
+        @apply left-0;
+    }
+
+    .category-box {
+        @apply flex items-center gap-5 p-5 mb-4 transition-all duration-500 ease-out;
+
+        &:hover {
+            @apply shadow-lg;
         }
 
-        & .category-desc {
-            @apply text-sm text-gray-500;
+        & img {
+            width: 100px;
+        }
+
+        & .category-box-left {
+            @apply flex flex-col;
+
+            & span:first-child {
+                @apply font-bold;
+            }
+
+            & .category-desc {
+                @apply text-sm text-gray-500;
+            }
+        }
+    }
+
+    .title {
+        @apply uppercase text-4xl border-b border-solid border-gray-600 pb-3;
+    }
+
+    .hero-box {
+        @apply transition-all duration-500 ease-out;
+        &:hover {
+            @apply md:shadow-lg;
         }
     }
 }
-
-/* NEWS CATEGORY SECTION END */
-
-/* TITLE START */
-
-.title {
-    @apply uppercase text-4xl border-b border-solid border-gray-600 pb-3;
-}
-
-/* TITLE END */
-
-/* HERO SECTION START */
-.hero-box {
-    @apply transition-all duration-500 ease-out;
-    &:hover {
-        @apply md:shadow-lg;
-    }
-}
-
-/* HERO SECTION END */
