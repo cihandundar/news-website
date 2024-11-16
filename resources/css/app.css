@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #f9f9f9;
+}
+
 /* HEADER SECTION START */
 .nav-link {
     @apply text-sm transition-all duration-500 ease-out;

@@ -9,4 +9,5 @@
     @include('front.partials.sections.cta')
     @include('front.partials.sections.technology')
     @include('front.partials.sections.writers')
+    @include('front.partials.sections.podcast')
 @endsection
