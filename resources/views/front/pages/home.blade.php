@@ -10,4 +10,5 @@
     @include('front.partials.sections.technology')
     @include('front.partials.sections.writers')
     @include('front.partials.sections.podcast')
+    @include('front.partials.sections.contact')
 @endsection
